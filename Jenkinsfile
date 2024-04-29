@@ -9,6 +9,7 @@ pipeline{
                 script {
                     echo "building go apllication"
                     sh 'go version'
+                    echo "This is $BRANCH_NAME branch"
                 }
             }
         }
